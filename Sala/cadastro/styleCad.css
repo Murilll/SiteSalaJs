@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.header h1{
+    color: aqua;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrarBotao{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.DadosAlunos input{
+    border: 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 30px;
+    padding: 12px;
+}
+
+#selectAluno{
+    border: 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.DadosAlunos input:focus{
+    outline: 0;
+}
+
+.foto:hover #more{
+    transition: 0.2s;
+    opacity: 1;
+}
+
+#fotoUsuario{
+    width: 150px;
+    height: 150px;
+    border-radius: 99px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.1s;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+#more{
+    width: 50px;
+    position: absolute;
+    left: 100vh;
+    top: 31vh;
+    cursor: pointer;
+}
+
+#more{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.btn{
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/*
+Mudando as letras
+*/
+
+.DadosAlunos h5{
+    color: rgb(122, 122, 122);
+}
+
+
+footer{
+    margin-top: 10%;
+}
