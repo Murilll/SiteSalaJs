@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.header {
+#headerBosch{
     display: block;
     width: 99vw;
     height: 100vh;
@@ -17,6 +17,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    transition: 2s;
 }
 
 header{
