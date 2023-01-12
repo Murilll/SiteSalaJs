@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #393941;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(82, 12, 45);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(23, 22, 24);
+}
+
+#headerBosch{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../img/cores.svg) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    transition: 2s;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+footer{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.salaDeAula h5{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+    font-size: 15px;
+}
+
+.student{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+.student img{
+    width: 15vw;
+}
+
+.titleStudent h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.alunosCard{
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.alunosCard a{
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#botaoEditar{
+    margin: 10px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 5vw;
+    height: 2vh;
+}
+
+.first:hover{
+    box-shadow: 0 0 40px 40px #9c9c9c inset;
+}
+
+.header:before{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header a, h1{
+    color: rgb(173, 173, 173) !important;
+}
+
+footer{
+    margin-top: 10vh;
+    color: rgb(92, 89, 89);
+}
+
+#footerBosch{
+    display: block;
+    width: 100%;
+    height: 1vh;
+    color: white;
+    background: url(../img/cores.svg) no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+}
+
+.alunosCard img{
+    width: 150px;
+    margin: 30px;
+}
+
+.alunosCard h5{
+    margin: 2vh;
+}
+
+.salaDeAula{
+    color: rgb(104, 104, 104);
+}
+
+.titleStudent h3{
+    color: rgb(104, 104, 104);
+}
